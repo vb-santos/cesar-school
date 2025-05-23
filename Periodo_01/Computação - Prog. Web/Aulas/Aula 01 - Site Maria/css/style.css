@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Estilização do corpo*/
+
+body, html{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-maria, .container-infos{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 10% 0 10%;
+}
+
+/*Estilização Container Maria*/
+
+.maria{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maria img{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.maria h1{
+    font-size: 2.25vw;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+}
+
+#heart{
+    color: red;
+}
+
+#linkedin{
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s ease-in;
+    
+
+    &:hover{
+        color: darkblue;
+    }
+}
+
+/*Estilização Container Infos*/
+
+.desc p{
+    margin: 2% 0 2% 0;
+}
+
+hr{
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container-infos{
+    padding-bottom: 12vh;
+}
+
+.cursos{
+    max-width: 60%;
+}
+
+.hobbies{
+    max-width: 30%;
+}
+
+#serigrafia{
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s ease-in-out;
+
+        &:hover{
+            color: darkblue;
+        }
+}
+
+/*Estilização Container Tabela*/
+
+.container-tabela{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.ct-table, .ct-th, .ct-td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* Estilização Container Contatos */
+
+.container-contatos{
+    padding: 4% 0 4% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contatos{
+    border: 1px solid black;
+    padding: 10px 50px 10px 50px;
+    box-shadow: 3px 3px 5px black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilização Container Forms */
+
+.container-forms{
+    padding: 4% 0 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-forms table{
+    width: 30vw;
+}
+
+.container-forms input{
+    border-radius: 20px;
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-forms select{
+    width: 91%;
+    border-radius: 30px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-forms textarea{
+    border-radius: 30px;
+}
+
+.container-forms #dataevento{
+    width: 88.5%;
+}
+
+.container-forms #submit{
+    margin-top: 20px;
+    background-color: white;
+    padding: 8px 30px 8px 30px;
+    border-radius: 50px;
+    
+    font-size: 18px;
+    transition: .2s ease-in-out;
+}
+
+.container-forms #submit:hover{
+    background-color: red;
+    border-color: grey;
+    color: white;
+}

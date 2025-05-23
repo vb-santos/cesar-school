@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/iconcake.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bc48bd619e.js" crossorigin="anonymous"></script>
+
+    <title>Aula 01 - Introdução</title>
+</head>
+
+<body>
+    <section class="container-maria">
+        <div class="maria">
+            <img src="img/maria_profile.jpg" alt="">
+            <h1>Maria Silva</h1>
+        </div>
+
+        <div class="desc">
+            <i>
+                <p>Sócia e diretora da empresa <b>Bolos Delivery</b></p>
+            </i>
+            <p>Sou formada em Gastronomia e Admnistração de Empresas. Além disso adoro pintar e costurar nas horas vagas
+                <span id="heart">&hearts;</span>.</p>
+            <p>Veja meu <a id="linkedin" href="https://br.linkedin.com/" target="_blank">Linkedin</a></p>
+
+        </div>
+    </section>
+
+    <hr>
+
+        <!--Ensinando listas-->
+
+    <section class="container-infos">
+        <div class="cursos">
+            <h1>Cursos e Especializações</h1>
+            <ul>
+                <li>Bolos Profissionais - Escola de Culinária X</li>
+                <li>Decoração com chantinho - Curso online na escola de bolos Y</li>
+                <li>Como transformar seu pequeno em um grande negócio - curso livre na Faculdade de Administração da XYZ</li>
+            </ul>
+        </div>
+
+        <div class="hobbies">
+            <h1>Meus Hobbies</h1>
+            <ol>
+                <li>Pintura</li>
+                <li>Costura</li>
+                <li><a id="serigrafia" href="https://www.futuraexpress.com.br/blog/o-que-e-serigrafia/#:~:text=O%20processo%20de%20serigrafia%20consiste,e%20posta%20sobre%20um%20fotolito." target="_blank">Serigrafia</a></li>
+            </ol>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Ensinando tabelas-->
+
+    <section class="container-tabela">
+
+        <h1>Experiências Profissionais</h1>
+
+        <table class="ct-table">
+            <thead class="ct-thead">
+                <tr>
+                    <th class="ct-th">Data</th>
+                    <th class="ct-th">Experiência</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="ct-td">2007-2008</td>
+                    <td class="ct-td">Estagiária na padaria do seu Joaquim.</td>
+                </tr>
+
+                <tr>
+                    <td class="ct-td">2008-2013</td>
+                    <td class="ct-td">Auxiliar na confeitaria da Dona Celeste.</td>
+                </tr>
+
+                <tr>
+                    <td class="ct-td">2013</td>
+                    <td class="ct-td">Sócia e diretora na Bolos Delivery.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container-tabela">
+
+        <h1>Habilidades</h1>
+
+        <table class="ct-table">
+            <tbody>
+                <tr>
+                    <td class="ct-td">Coberturas com chantininho.</td>
+                    <td class="ct-td">⭐⭐⭐⭐⭐</td>
+                </tr>
+
+                <tr>
+                    <td class="ct-td">Coberturas com buttercream.</td>
+                    <td class="ct-td">⭐⭐⭐⭐</td>
+                </tr>
+
+                <tr>
+                    <td class="ct-td">Coberturas com glacê</td>
+                    <td class="ct-td">⭐⭐⭐⭐</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section class="container-contatos">
+        <div class="contatos">
+            <h1>Meus Contatos</h1>
+            <p><i class="fa-solid fa-phone"></i> (81) 98888-1111</p>
+            <p><i class="fa-solid fa-envelope"></i> mariasilva@email.com.br</p>
+            <p><i class="fa-solid fa-location-dot"></i> Rua sem nome, 210</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="container-forms">
+        <h1>Peça seu orçamento</h1>
+        
+        <form action="" method="">
+            <table>
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" name="nome" id="nome"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="assunto">Assunto:</label></td>
+                    <td>
+                        <select name="assunto" id="assunto">
+                            <option value="casamento">Festas de casamento</option>
+                            <option value="confraternizacao">Confraternizações</option>
+                            <option value="simples">Bolos simples</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="dataevento">Informe a data do seu evento:</label></td>
+                    <td><input type="date" name="dataevento" id="dataevento"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="mensagem">Mensagem:</label></td>
+                    <td><textarea name="mensagem" id="mensagem" cols="20" rows=""></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" id="td-button"><input type="submit" value="Enviar" id="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+[
+    {
+        "nomeRestaurante": "Bk",
+        "notaRest": 5.0,
+        "enderecoRest": "Recife - PE",
+        "telefoneRest": "81993190503",
+        "mesasRest": 20,
+        "horariosFuncionamento": "12h - 00h",
+        "cardapio": "Batata frita - R$ 10\n\t\t\t\tCarne de cavalo - R$ 100"
+    },
+    {
+        "nomeRestaurante": "Burguer",
+        "notaRest": 5.0,
+        "enderecoRest": "Recife - PE",
+        "telefoneRest": "81993190503",
+        "mesasRest": 20,
+        "horariosFuncionamento": "12h - 00h",
+        "cardapio": "Batata frita - R$ 10\n\t\t\t\tCarne de cavalo - R$ 100"
+    }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_aula1_introducao/class_aula1_introducao.iml" filepath="$PROJECT_DIR$/class_aula1_introducao/class_aula1_introducao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_aula2_encapsulamento/class_aula2_encapsulamento.iml" filepath="$PROJECT_DIR$/class_aula2_encapsulamento/class_aula2_encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_aula3_heranca/class_aula3_heranca.iml" filepath="$PROJECT_DIR$/class_aula3_heranca/class_aula3_heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_exercicio1_encapsulamento/class_exercicio1_encapsulamento.iml" filepath="$PROJECT_DIR$/class_exercicio1_encapsulamento/class_exercicio1_encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_exercicio2_heranca/class_exercicio2_heranca.iml" filepath="$PROJECT_DIR$/class_exercicio2_heranca/class_exercicio2_heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_exercicio3_imc/class_exercicio3_imc.iml" filepath="$PROJECT_DIR$/class_exercicio3_imc/class_exercicio3_imc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_exercicio4_formulas/class_exercicio4_formulas.iml" filepath="$PROJECT_DIR$/class_exercicio4_formulas/class_exercicio4_formulas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_exercicio5_heranca02/class_exercicio5_heranca02.iml" filepath="$PROJECT_DIR$/class_exercicio5_heranca02/class_exercicio5_heranca02.iml" />
+    </modules>
+  </component>
+</project>

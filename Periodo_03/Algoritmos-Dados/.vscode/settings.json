@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "string.h": "c",
+    "sstream": "c",
+    "random": "c",
+    "stdio.h": "c",
+    "stdlib.h": "c"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
