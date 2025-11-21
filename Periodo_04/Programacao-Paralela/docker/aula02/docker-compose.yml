@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    container_name: sw_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_DB: meubanco
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - sw-net
+
+  backend:
+    build: ./backend
+    container_name: sw_backend
+    depends_on:
+      - db
+    environment:
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: meubanco
+      DATABASE_USER: admin
+      DATABASE_PASSWORD: "1234"
+      FLASK_ENV: development
+    networks:
+      - sw-net
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./frontend
+    container_name: sw_frontend
+    depends_on:
+      - backend
+    networks:
+      - sw-net
+    ports:
+      - "8080:80"   # expõe o Nginx na porta 8080 do host
+
+volumes:
+  db_data:
+
+networks:
+  sw-net:
+    driver: bridge
