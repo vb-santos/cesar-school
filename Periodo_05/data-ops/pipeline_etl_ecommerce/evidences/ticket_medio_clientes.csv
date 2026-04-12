@@ -1,0 +1,17 @@
+┌───────────────────────┬─────────┬───────────────┬──────────────┐
+│     customer_name     │  state  │ total_pedidos │ ticket_medio │
+│        varchar        │ varchar │     int64     │    double    │
+├───────────────────────┼─────────┼───────────────┼──────────────┤
+│ Luiz Henrique Peixoto │ GO      │             1 │      4966.13 │
+│ Dr. Lucca Cunha       │ MG      │             1 │       4914.7 │
+│ André da Mata         │ SC      │             1 │      4820.35 │
+│ Lorena Costa          │ GO      │             1 │       4799.5 │
+│ Sr. Vitor Duarte      │ MG      │             1 │      4761.15 │
+│ Sr. Gabriel Ramos     │ PE      │             1 │      4753.75 │
+│ Sra. Sofia Campos     │ PR      │             1 │       4703.8 │
+│ João Felipe Oliveira  │ RJ      │             1 │       4702.8 │
+│ Rebeca Nascimento     │ CE      │             1 │      4678.58 │
+│ Srta. Isabella Novaes │ GO      │             1 │      4459.65 │
+├───────────────────────┴─────────┴───────────────┴──────────────┤
+│ 10 rows                                              4 columns │
+└────────────────────────────────────────────────────────────────┘

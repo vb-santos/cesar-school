@@ -1,0 +1,17 @@
+┌───────────────────────────────────────────────────────┬───────────────┬───────────────────┬─────────────┐
+│                     product_name                      │   category    │ unidades_vendidas │ faturamento │
+│                        varchar                        │    varchar    │      int128       │   double    │
+├───────────────────────────────────────────────────────┼───────────────┼───────────────────┼─────────────┤
+│ A segurança de realizar seus sonhos de maneira eficaz │ Alimentos     │                81 │    42293.37 │
+│ A liberdade de evoluir simplesmente                   │ Casa e Jardim │                72 │    39933.68 │
+│ A liberdade de evoluir mais facilmente                │ Brinquedos    │                69 │    32717.94 │
+│ O poder de atingir seus objetivos simplesmente        │ Alimentos     │                68 │    28661.57 │
+│ A arte de ganhar sem preocupação                      │ Eletrônicos   │                66 │    38155.44 │
+│ O prazer de avançar com força total                   │ Casa e Jardim │                65 │    32260.98 │
+│ A arte de evoluir de maneira eficaz                   │ Livros        │                65 │    38688.49 │
+│ O direito de atingir seus objetivos com força total   │ Roupas        │                64 │    30495.54 │
+│ A certeza de mudar simplesmente                       │ Livros        │                64 │    38376.89 │
+│ A segurança de ganhar simplesmente                    │ Saúde         │                64 │    33351.49 │
+├───────────────────────────────────────────────────────┴───────────────┴───────────────────┴─────────────┤
+│ 10 rows                                                                                       4 columns │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
